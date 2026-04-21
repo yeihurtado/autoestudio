@@ -1,0 +1,10 @@
+results/*.json
+results/*.html
+results/json/
+results/html/
+*.log
+.venv/
+node_modules/
+__pycache__/
+.env
+.DS_Store

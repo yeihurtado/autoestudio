@@ -1,0 +1,22 @@
+[
+    {"message": "consulta de inventario",       "priority": 1, "category": "read"},
+    {"message": "actualizacion de perfil",      "priority": 2, "category": "write"},
+    {"message": "busqueda de productos",        "priority": 1, "category": "read"},
+    {"message": "carrito: agregar item",        "priority": 3, "category": "write"},
+    {"message": "carrito: eliminar item",       "priority": 3, "category": "write"},
+    {"message": "checkout: iniciar",            "priority": 4, "category": "critical"},
+    {"message": "checkout: confirmar pago",     "priority": 5, "category": "critical"},
+    {"message": "listar ordenes",               "priority": 1, "category": "read"},
+    {"message": "detalle de orden",             "priority": 1, "category": "read"},
+    {"message": "cancelar orden",               "priority": 4, "category": "write"},
+    {"message": "notificar soporte",            "priority": 2, "category": "write"},
+    {"message": "login con 2FA",                "priority": 5, "category": "critical"},
+    {"message": "logout",                       "priority": 1, "category": "read"},
+    {"message": "recuperar contrasena",         "priority": 3, "category": "write"},
+    {"message": "cambiar email",                "priority": 3, "category": "write"},
+    {"message": "descargar factura",            "priority": 1, "category": "read"},
+    {"message": "preferencias de notificacion", "priority": 2, "category": "write"},
+    {"message": "feedback de producto",         "priority": 2, "category": "write"},
+    {"message": "suscripcion a newsletter",     "priority": 1, "category": "write"},
+    {"message": "eliminar cuenta",              "priority": 5, "category": "critical"}
+  ]
